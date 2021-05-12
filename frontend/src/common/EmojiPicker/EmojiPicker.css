@@ -1,0 +1,47 @@
+.emoji-mart {
+  background-color: var(--rootBgColor);
+  color: var(--rootTextColor);
+  border: 1px solid var(--secondaryColor);
+  max-width: 260px;
+}
+
+.emoji-mart-search-icon {
+  top: 1px;
+}
+
+.emoji-mart-anchor .emoji-mart-anchor-selected {
+  color: var(--primaryColor);
+}
+
+.emoji-mart-title-label {
+  color: var(--secondaryColor);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.emoji-mart-preview-shortnames,
+.emoji-mart-preview-emoticons {
+  display: none;
+}
+
+.emoji-mart-search input {
+  background-color: var(--rootBgColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+.emoji-mart-category-label span {
+  background-color: var(--rootBgColor);
+  padding: 1px 5px;
+}
+
+.emoji-mart-anchors svg {
+  fill: var(--primaryColor);
+}
+
+.emoji-mart-anchor-selected .emoji-mart-anchor-bar {
+  background-color: var(--primaryColor) !important;
+}
+
+.emoji-mart-category .emoji-mart-emoji:hover:before {
+  background-color: var(--primaryColorBg);
+}
