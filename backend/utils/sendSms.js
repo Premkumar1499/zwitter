@@ -1,5 +1,5 @@
-const accountSid = 'AC8956df18db41a9331761fa35fe8140db';
-const authToken = '6cc3daef2a80eca2aee4a62410908303';
+const accountSid = process.env.TWILIO_ID;
+const authToken = process.env.TWILIO_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 const ErrorResponse = require('../utils/ErrorResponse.js')
 const User = require('../model/User.js')
@@ -15,7 +15,7 @@ const sendSms = async (user, text, res, next) => {
         const message = await client.messages
             .create({
                 body: text,
-                from: '+19286429918',
+                from: process.env.TWILIO_CALL_NUMBER,
                 to: `+${user.intl}${user.phone}`
             })
 
