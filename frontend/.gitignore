@@ -1,4 +1,4 @@
-.netlify
+/.netlify
 
 # dependencies
 /node_modules
