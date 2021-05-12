@@ -1,2 +1,2 @@
 
-<img src="/images/home.jpg" alt="home" />
+<img src="/images/home.png" alt="home" />
