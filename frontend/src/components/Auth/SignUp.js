@@ -307,7 +307,7 @@ function SignUp({ history }) {
                                         <div className="mb-20 ">
                                             <TextInput placeholder="Birth date" value={dob(date)} handleClick={() => setStep(1)} />
                                         </div>
-                                        {!smallScreen && <span className="text-secondary font-450 font-2sm  block mr-20 pr-20"> By signing up, you agree to the Terms of Service and Privacy Policy. Others will be able to find you by email or phone number when provided. </span>}
+                                        {/* {!smallScreen && <span className="text-secondary font-450 font-2sm  block mr-20 pr-20"> By signing up, you agree to the Terms of Service and Privacy Policy. Others will be able to find you by email or phone number when provided. </span>} */}
                                     </div>
                                     <button className="fill-button w-90 mt-20 text-white" onClick={() => { !swap ? setModal(true) : register() }}>Sign up</button>
                                 </>
